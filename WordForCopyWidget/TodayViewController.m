@@ -15,14 +15,12 @@ static NSString *const UserDefaultsKey = @"wordForCopy";
 @interface TodayViewController () <NCWidgetProviding>
 
 @property (weak, nonatomic) IBOutlet UIButton *wordToClipboardButton;
-@property (weak, nonatomic) IBOutlet UIView *backgroundView;
 
 @end
 
 @implementation TodayViewController
 
 @synthesize wordToClipboardButton;
-@synthesize backgroundView;
 
 - (void)viewDidLoad {
     [super viewDidLoad];

@@ -9,6 +9,11 @@
 			<key>orderHint</key>
 			<integer>0</integer>
 		</dict>
+		<key>WeatherWidget.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>2</integer>
+		</dict>
 		<key>WordForCopyWidget.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -28,6 +33,11 @@
 			<true/>
 		</dict>
 		<key>7C4154B619888FBD0050E1CE</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>7CB1AF871988A4C10050A399</key>
 		<dict>
 			<key>primary</key>
 			<true/>
