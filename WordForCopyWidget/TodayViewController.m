@@ -34,6 +34,9 @@ static NSString *const UserDefaultsKey = @"wordForCopy";
     if ( wordForCopy ) {
         self.wordToClipboardButton.enabled = YES;
     }
+    
+    //  size
+    self.preferredContentSize = CGSizeMake( self.preferredContentSize.width, 30.0 );
 }
 
 - (void)didReceiveMemoryWarning {
@@ -63,6 +66,11 @@ static NSString *const UserDefaultsKey = @"wordForCopy";
 - (IBAction)openContainingApp:(id)sender {
     NSString *urlStr = @"groovelab-today-extension-containing://";
     [[self extensionContext] openURL:[NSURL URLWithString:urlStr] completionHandler:nil];
+}
+
+- (IBAction)extendAction:(id)sender {
+    //  size
+    self.preferredContentSize = CGSizeMake( self.preferredContentSize.width, 100.0 );
 }
 
 @end

@@ -57,6 +57,9 @@ static NSString *const WeatherURL = @"http://api.openweathermap.org/data/2.5/wea
                                    self.weatherLabel.text = @"error";
                                }
                            }];
+
+    //  size
+    self.preferredContentSize = CGSizeMake( self.preferredContentSize.width, 100.0 );
 }
 
 - (void)didReceiveMemoryWarning {
