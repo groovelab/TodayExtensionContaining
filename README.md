@@ -1,4 +1,4 @@
 TodayExtensionContaining
 ========================
 
-iOS8 today extension demo
+iOS 8 today extension demo
